@@ -1,7 +1,7 @@
-MMOODDUULLEE  NNAAMMEE
+MODULE NAME
     eat
 
-DDEESSCCRRIIPPTTIIOONN
+DESCRIPTION
     DOCTESTS ARE AWESOME!!!!11one
 
     Exploring the magic and wonder of Python's built-in docstring-based 
@@ -21,9 +21,9 @@ DDEESSCCRRIIPPTTIIOONN
         - u' ampledata on facebook'<http://facebook.com/ampledata>
 
 
-FFUUNNCCTTIIOONNSS
+FUNCTIONS
     
-    eeaatt(food, price=1)
+    eat(food, price=1)
         Eats food, if we have enough cash on hand.
         
         Test & Example
@@ -46,12 +46,12 @@ FFUUNNCCTTIIOONNSS
         
         Operation
         =========
-        RReettuurrnnss::
+        Returns:
             A message describing our meal.
-        RReettuurrnn  ttyyppee::
+        Return type:
             str
 
-VVAARRIIAABBLLEESS
+VARIABLES
     
-    ____ppaacckkaaggee____ = None
+    __package__ = None
 
