@@ -3,44 +3,42 @@ MODULE NAME
 
 DESCRIPTION
     DOCTESTS ARE AWESOME!!!!11one
-    
-    Exploring the magic and wonder of Python's built-in docstring-based testing
-    mechanism.
-    
-    
+
+    Exploring the magic and wonder of Python's built-in docstring-based 
+    testing mechanism.
+
     Last night a doctest saved my life
     ==================================
-      - Builds-in regression testing.
-      - Verifies that examples are up-to-date.
-      - Creates executable documentation.
-    
-    
+        - Build-in regression testing.
+        - Verify that examples are up-to-date.
+        - Create executable documentation.
+        - Create in-line Examples.
+        - Leave the campground cleaner than you found it.
+
     Running this example
     ====================
-      1. Checkout the code from U{ github }
-        <http://github.com/ampledata/talk-doctest>}
-      2. From a command prompt: C{ $ python eat.py }
-        - This should produce NO output.
-        - To actually see what happened,
-          add the C{ -v } flag: C{ $ python eat.py -v }
-    
-            Trying:
-                lunch='taco'
-            Expecting nothing
-            ok
-    
-    
+        1. Checkout the code from u' 
+           github'<http://github.com/ampledata/talk-doctest>
+        2. From a command prompt:  $ python eat.py
+             - This should produce NO output.
+             - To actually see what happened, add the  -v  flag:  $ python 
+               eat.py -v
+
     More Info
     =========
-      - U{ source code for this talk <http://github.com/ampledata/talk-doctest>}
-      - U{ doctest - Test interactive Python examples <http://bit.ly/y4WooQ>}
-    
-    
+        - u' source code for this 
+          talk'<http://github.com/ampledata/talk-doctest>
+        - u' doctest - Test interactive Python 
+          examples'<http://bit.ly/y4WooQ>
+        - u' Epydoc - Automatic API Documenation Generator for 
+          Python'<http://epydoc.sourceforge.net/>
+
     BSP
     ===
-      - U{ @ampledata on twitter <http://twitter.com/ampledata>}
-      - U{ ampledata on github <http://github.com/ampledata>}
-      - U{ ampledata on facebook <http://facebook.com/ampledata>}
+        - u' @ampledata on twitter'<http://twitter.com/ampledata>
+        - u' ampledata on github'<http://github.com/ampledata>
+        - u' ampledata on facebook'<http://facebook.com/ampledata>
+
 
 FUNCTIONS
     
@@ -52,7 +50,7 @@ FUNCTIONS
             - Eating a regulation taco:
                 >>> lunch='taco'
                 >>> eat(lunch)
-                'Eating a delicious taco for $1.' #+doctest.NORMALIZE_WHITESPACE
+                'Eating a delicious taco for $1.'
             - Eating an engineer's food pellet for $3:
                 >>> dinner='burrito'
                 >>> eat(dinner, 3)
