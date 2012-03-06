@@ -1,9 +1,19 @@
 #!/usr/bin/env python
 """DOCTESTS ARE AWESOME!!!!11one
 
+Exploring the magic and wonder of Python's built-in docstring-based testing
+mechanism.
+
 More Info
 =========
-  - U{doctest - Test interactive Python examples<http://bit.ly/y4WooQ>}
+  - U{ source code for this talk <http://github.com/ampledata/talk-doctest>}
+  - U{ doctest - Test interactive Python examples <http://bit.ly/y4WooQ>}
+
+BSP
+===
+  - U{ @ampledata on twitter <http://twitter.com/ampledata>}
+  - U{ ampledata on github <http://github.com/ampledata>}
+  - U{ ampledata on facebook <http://facebook.com/ampledata>}
 """
 
 __author__ = 'Greg Albrecht <gba@splunk.com>'
@@ -12,13 +22,6 @@ __license__ = 'Steal this example.'
 
 
 import doctest
-import argparse
-
-#class RunDoctests(argparse.Action, doctest
-#class FooAction(argparse.Action):
-#        def __call__(self, parser, namespace, values, option_string=None):
-#                    print '%r %r %r' % (namespace, values, option_string)
-#                            setattr(namespace, self.dest, values)
 
 
 def eat(food, price=1):
@@ -49,7 +52,6 @@ def eat(food, price=1):
             >>> eat('sandwich', 6)
             "I can't afford that!"
 
-
     Operation
     =========
         @param food: Something to eat.
@@ -79,17 +81,17 @@ if __name__ == '__main__':
 # 2. Create a test function, itself calling doctest.testmod().
 #     - Helpful if we want to use opt^H^H^Hargparse to invoke tests.
 #     - Akin to Tim Peters' original example: http://bit.ly/ziUfgu
-
-def test_eat():
-    """Runs the doctests within the L{eat()} function."""
-    doctest.testmod()
-
-if __name__ == '__main__':
-    # something something argparse
-    # if opt='test'
-    test_eat()
-    # else:
-    # normal_stuff()
+#
+# def test_eat():
+#    """Runs the doctests within the L{eat()} function."""
+#    doctest.testmod()
+#
+# if __name__ == '__main__':
+#    opt = something_something_something(argparse)
+#    if opt='test':
+#      test_eat()
+#    else:
+#      normal_stuff()
 
 
 # 3. Use py.test to execute our doctest.

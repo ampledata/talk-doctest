@@ -1,4 +1,3 @@
 eat	eat-module.html
-eat.test_eat	eat-module.html#test_eat
 eat.__package__	eat-module.html#__package__
 eat.eat	eat-module.html#eat
